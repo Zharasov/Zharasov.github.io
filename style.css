@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
 *{
 	box-sizing: border-box;
 	transition: all .5 ease-in-out;
@@ -9,5 +10,24 @@ body{
 	margin: 0px auto;
 	width: 1170px;
 }
-
-
+#footer{
+	margin: 0px auto;
+	width: 600px;
+	background: rgba(255,255,255,.1);
+	height: 90px;
+	margin-bottom: 30px;
+	border-radius: 25px;
+	transition: width .7s ease-in-out, background .5s ease-in-out;
+}
+#footer:hover{
+	width: 900px;
+	cursor: pointer;
+	background: rgba(255,255,255,0);
+}
+#footer p{
+	color: #fff;
+	font-size: 35px;
+	text-align: center;
+	font-family: 'Quicksand', sans-serif;
+	line-height: 90px;
+}
