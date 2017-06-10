@@ -10,7 +10,7 @@ body{
 	margin: 0px auto;
 	width: 1170px;
 }
-#footer{
+.footer{
 	margin: 0px auto;
 	width: 600px;
 	background: rgba(255,255,255,.1);
@@ -19,12 +19,12 @@ body{
 	border-radius: 25px;
 	transition: width .7s ease-in-out, background .5s ease-in-out;
 }
-#footer:hover{
+.footer:hover{
 	width: 900px;
 	cursor: pointer;
 	background: rgba(255,255,255,0);
 }
-#footer p{
+.footer p{
 	color: #fff;
 	font-size: 35px;
 	text-align: center;
