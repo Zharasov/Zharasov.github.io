@@ -15,14 +15,8 @@ body{
 	width: 600px;
 	background: rgba(255,255,255,.1);
 	height: 80px;
-	margin-bottom: 30px;
-	border-radius: 25px;
-	transition: width .7s ease-in-out, background .5s ease-in-out;
-}
-.footer:hover{
-	width: 900px;
+	border-radius: 20px;
 	cursor: pointer;
-	background: rgba(255,255,255,0);
 }
 .footer p{
 	color: #fff;
