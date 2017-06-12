@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+*{
+	box-sizing: border-box;
+	transition: all .5 ease-in-out;
+}
+body{
+	background: url(bg.png) repeat top center;
+}
+#all{
+	margin: 0px auto;
+	width: 1170px;
+}
+.footer{
+	margin: 0px auto;
+	width: 1150px;
+	background: rgba(255,255,255,.1);
+	height: 80px;
+	border-radius: 20px;
+	cursor: pointer;
+}
+.footer p{
+	color: #fff;
+	font-size: 25px;
+	text-align: center;
+	font-family: 'Quicksand', sans-serif;
+	line-height: 80px;
+}
+
