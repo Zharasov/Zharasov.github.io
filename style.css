@@ -3,12 +3,11 @@
 	box-sizing: border-box;
 }
 body{
-	background: url(5.png);
+	background: url(12.png);
 }
 #logo img{
 	transform: scale(1.7);
-/*	width: 210px;*/
-	margin: 30px 33%;
+	margin: 30px 31%;
 	cursor: pointer;
 	border-radius: 80px;
 }
@@ -24,10 +23,10 @@ body{
 #page ul li{
 	list-style-type: none;
 	height: 70px;
-	margin-bottom: 5px;
+	margin-bottom: 3px;
 	line-height: 70px;
 	cursor: pointer;
-	background: rgba(255,255,255,.6);
+	background: rgba(255,255,255,.5);
 	margin-left: -40px;
 	text-align: center;
 	border-radius: 10px;
@@ -49,14 +48,31 @@ body{
 #page ul li a:hover{
 	color: white;
 }
+/******************************************************Для языков*********************************/
+/*#page ul li:nth-of-type(2){
+	margin-bottom: 20px;
+}
+#page ul li:nth-of-type(4){
+	margin-bottom: 20px;
+}
+#page ul li:nth-of-type(6){
+	margin-bottom: 40px;
+}*/
+/***************Lang*************/
+#page .class{
+	position: absolute;
+	top: 2px;
+	left: 2px;
+}
 
-
-
-
+/***************************************************Адаптивный сайт******************************************/
 @media screen and (max-device-width: 600px){
 	#page{
 	width: 900px;
 	margin: 0px auto;
+}
+body{
+	background: url(1.png);
 }
 #logo img{
 	transform: scale(2);
@@ -74,7 +90,7 @@ body{
 	list-style-type: none;
 	height: 120px;
 	margin-top: 30px;
-	margin-bottom: 10px;
+	margin-bottom: -20px;
 	line-height: 120px;
 	cursor: pointer;
 	background: #2A3F8A;
@@ -91,8 +107,12 @@ body{
 	font-family: 'Roboto', sans-serif;
 }
 #page .mobile a{
-	height: 140px;
+	padding-top: 16px;
+	height: 160px;
 	line-height: 60px;
+}
+#page .mobile{
+	height: 160px;
 }
 }
 
