@@ -9,7 +9,7 @@ body{
 #logo img{
 	transform: scale(1.7);
 /*	width: 210px;*/
-	margin: 30px 30%;
+	margin: 30px 33%;
 	cursor: pointer;
 	border-radius: 80px;
 }
