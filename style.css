@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 *{
-	transition: all .2s ease-in-out;
 	box-sizing: border-box;
 }
 body{
@@ -32,6 +31,7 @@ body{
 	color: #000;
 	font-size: 20px;
 	font-family: 'Roboto', sans-serif;
+	display: block;
 }
 #page ul li:hover{
 	background: #2fc5ff;
@@ -41,9 +41,32 @@ body{
 }
 @media (max-width: 800px){
 	#page{
-		width: 100%;
-		margin: 50% auto;
-	}
+	width: 900px;
+	margin: 0px auto;
+}
+#page ul{
+	width: 900px;
+	margin: 0px auto;
+}
+#page ul li{
+	list-style-type: none;
+	height: 140px;
+	margin-bottom: 5px;
+	line-height: 50%;
+	cursor: pointer;
+	background: rgba(255,255,255,.6);
+	margin-left: -40px;
+	text-align: center;
+	border-radius: 10px;
+}
+#page ul li a{
+	height: 140px;
+	line-height: 50%px;
+	text-decoration: none;
+	color: #000;
+	font-size: 40px;
+	font-family: 'Roboto', sans-serif;
+}
 
 }
 /*@media (max-width: 800px){
