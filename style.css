@@ -55,10 +55,11 @@ body{
 #page ul li{
 	list-style-type: none;
 	height: 120px;
-	margin-bottom: 5px;
+	margin-top: 30px;
+	margin-bottom: 10px;
 	line-height: 120px;
 	cursor: pointer;
-	background: rgba(255,255,255,.6);
+	background: #2fc5ff;
 	margin-left: -40px;
 	text-align: center;
 	border-radius: 10px;
@@ -67,7 +68,7 @@ body{
 	height: 120px;
 	line-height: 120px;
 	text-decoration: none;
-	color: #000;
+	color: #fff;
 	font-size: 40px;
 	font-family: 'Roboto', sans-serif;
 }
