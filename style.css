@@ -3,7 +3,7 @@
 	box-sizing: border-box;
 }
 body{
-	background: url(12.png);
+	background: url(5.png);
 }
 #logo img{
 	transform: scale(1.7);
@@ -23,14 +23,15 @@ body{
 #page ul li{
 	list-style-type: none;
 	height: 70px;
-	margin-bottom: 3px;
+	margin-bottom: 7px;
 	line-height: 70px;
 	cursor: pointer;
-	background: rgba(255,255,255,.5);
+	background: rgba(255,255,255,.7);
 	margin-left: -40px;
 	text-align: center;
 	border-radius: 10px;
 	transition: background .1s ease-in-out;
+	box-shadow: 0px 0px 20px #999999;
 }
 #page ul li a{
 	height: 70px;
