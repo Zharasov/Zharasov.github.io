@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+*{
+	box-sizing: border-box;
+}
+body{
+	background: url(5.png);
+}
+#logo img{
+	transform: scale(1.7);
+	margin: 30px 35%;
+	cursor: pointer;
+	border-radius: 80px;
+}
+#page{
+	width: 670px;
+	margin: 0px auto;
+	height: 1000px;
+}
+#page ul{
+	width: 670px;
+	margin: 0px auto;
+}
+#page ul li{
+	position: relative;
+	list-style-type: none;
+	height: 70px;
+	margin-bottom: 7px;
+	line-height: 70px;
+	cursor: pointer;
+	background: rgba(255,255,255,.5);
+	margin-left: -40px;
+	text-align: center;
+	border-radius: 10px;
+	transition: background .1s ease-in-out;
+	box-shadow: 0px 0px 20px #CCCCCC;
+	z-index: 1;
+}
+#page ul li a{
+	height: 70px;
+	line-height: 70px;
+	text-decoration: none;
+	color: #000;
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	display: block;
+	transition: color .1s ease-in-out;
+}
+#page ul li:hover{
+	background: #2A3F8A;
+}
+#page ul li a:hover{
+	color: white;
+}
+
+
+/**********************************************Main Menu settings*********************************/
+#main-1{
+	margin-right: 65px;
+	height: 70px;
+	width: 270px;
+	display: inline-block;
+}
+#main-2{
+	/*margin-left: 40px;*/
+	height: 70px;
+	width: 270px;
+	display: inline-block;
+}
+#main-1,#main-2{
+	position: absolute;
+	left: 50px;
+}
+
+/******************************************************Для языков*********************************/
+/*#page ul li:nth-of-type(2){
+	margin-bottom: 20px;
+}
+#page ul li:nth-of-type(4){
+	margin-bottom: 20px;
+}
+#page ul li:nth-of-type(6){
+	margin-bottom: 40px;
+}*/
+/***************Lang*************/
+#page .rus-1{
+	z-index: 5;
+	width: 25px;
+	height: 15px;
+	position: absolute;
+	top: 8px;
+	left: 8px;
+}
+
+/***************************************************Адаптивный сайт******************************************/
+@media screen and (max-device-width: 600px){
+	#page{
+	width: 900px;
+	margin: 0px auto;
+}
+body{
+	background: url(5.png);
+}
+#logo img{
+	transform: scale(2);
+	margin-left: 38%;
+	margin-top: 50px;
+	cursor: pointer;
+	border-radius: 80px;
+	margin-bottom: 20px;
+}
+#page ul{
+	width: 900px;
+	margin: 0px auto;
+}
+#page ul li{
+	list-style-type: none;
+	height: 120px;
+	margin-top: 30px;
+	margin-bottom: -20px;
+	line-height: 120px;
+	cursor: pointer;
+	background: #2A3F8A;
+	margin-left: -40px;
+	text-align: center;
+	border-radius: 10px;
+	box-shadow: none;
+}
+#page ul li a{
+	height: 120px;
+	line-height: 120px;
+	text-decoration: none;
+	color: #fff;
+	font-size: 40px;
+	font-family: 'Roboto', sans-serif;
+}
+#page .mobile a{
+	padding-top: 16px;
+	height: 160px;
+	line-height: 60px;
+}
+#page .mobile{
+	height: 160px;
+}
+#main-1{
+	margin-right: 100px;
+	height: 70px;
+	width: 270px;
+	display: inline-block;
+}
+#main-2{
+	height: 70px;
+	width: 270px;
+	display: inline-block;
+}
+#main-1,#main-2{
+	position: absolute;
+	left: 140px;
+}
+}
